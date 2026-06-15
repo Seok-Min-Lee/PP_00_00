@@ -1,4 +1,4 @@
-# PP_00_00
+# Peopulley_Portfolio
 
 - 피플리 재직 중 주요 국공립 기관 및 글로벌 IP 전시의 실감형 미디어 시스템을 구축한 내용입니다.  
 - 18개의 프로젝트, 50개의 프로그램 개발에 참여하였으며,  
@@ -298,17 +298,15 @@
 카메라 영상 데이터를 실시간으로 추적·분석하여, 관람객의 움직임이나 환경 변화를 즉각적으로 콘텐츠에 반영하는 비전 기술입니다.
 <table width="100%" >
   <tr>
-    <th>얼굴 인식 (Google MediaPipe)</th>
+    <th colspan="3">얼굴 인식 (Google MediaPipe)</th>
   </tr>
   <tr>
-    <td> 
-      <img src="Docs/face-mask-1.gif" width="33%">
-      <img src="Docs/face-mask-2.gif" width="33%">
-      <img src="Docs/face-mask-3.gif" width="33%">
-    </td>
+    <td> <img src="Docs/face-mask-1.gif"> </td>
+    <td> <img src="Docs/face-mask-2.gif"> </td>
+    <td> <img src="Docs/face-mask-3.gif"> </td>
   </tr>
   <tr align="center">
-    <td> 한국관광공사 </td>
+    <td colspan="3"> 한국관광공사 </td>
   </tr>
  </table>
 
@@ -316,18 +314,15 @@
 하드웨어 장치와 PC 간의 로컬 시리얼 통신 연동 기술로, **RFID 및 바코드** 등의 인식 센서 데이터를 실시간으로 수신하여 콘텐츠를 제어합니다.
 <table width="100%">
   <tr>
-    <th colspan="2"> RFID 인식 후 미디어 교체 </th>
+    <th colspan="3"> RFID 인식 후 미디어 교체 </th>
   </tr>
   <tr>
     <td> <img src="Docs/rfid-1.gif"> </td>
-    <td>
-      <img src="Docs/rfid-2.gif" width="48%">
-      <span width="4%"> &nbsp;&nbsp;&nbsp; </span>
-      <img src="Docs/rfid-3.gif" width="48%">
-    </td>
+    <td> <img src="Docs/rfid-2.gif"> </td>
+    <td> <img src="Docs/rfid-3.gif"> </td>
   </tr>
   <tr> 
-    <td colspan="2" align="center"> 국립부여박물관 </td>
+    <td colspan="3" align="center"> 국립부여박물관 </td>
   </tr>
  </table>
 
