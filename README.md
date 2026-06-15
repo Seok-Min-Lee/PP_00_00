@@ -1,232 +1,234 @@
 # Peopulley_Portfolio
 
 - 피플리 재직 중 주요 국공립 기관 및 글로벌 IP 전시의 실감형 미디어 시스템을 구축한 내용입니다.  
-- 18개의 프로젝트, 50개의 프로그램 개발에 참여하였으며,  
-키오스크 UI/UX부터 특수 센서 연동, 1:N 멀티 동기화 아키텍처 및 자체 R&D 컴포넌트 개발까지 전시 솔루션 전 과정을 주도했습니다.  
-
-<table>
-  <tr>
-    <th width="10%">구분</th>
-    <th width="30%">프로젝트</th>
-    <th width="30%">콘텐츠</th>
-    <th width="10%">개수</th>
-    <th width="20%">기타</th>
-  </tr>
-  <!-- 하리보 100주년 -->
-  <tr>
-    <td align="center">IP전시</td>
-    <td>골드베렌의 100주년 생일 기념전 WELCOME TO THE HARIBO WORLD</td>
-    <td>인터랙티브 콘텐츠</td>
-    <td align="center">1</td>
-    <td>리얼센스 활용 바디 트래킹</td>
-  </tr>
-  <!-- 국중박 기증관 -->
-  <tr>
-    <td align="center" rowspan="2">박물관</td>
-    <td rowspan="2">국립중앙박물관 기증관</td>
-    <td>키오스크</td>
-    <td align="center">2</td>
-    <td>안드로이드 OS</td>
-  </tr>
-  <tr>
-    <td>키오스크</td>
-    <td align="center">1</td>
-    <td>-</td>
-  </tr>
-  <!-- ACC -->
-  <tr>
-    <td align="center" rowspan="2">박물관</td>
-    <td rowspan="2">광주 국립아시아문화전당</td>
-    <td>키오스크</td>
-    <td align="center">1</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>미니게임</td>
-    <td align="center">1</td>
-    <td>-</td>
-  </tr>
-  <!-- 청계천 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>청계천박물관</td>
-    <td>미디어월 콘텐츠</td>
-    <td align="center">1</td>
-    <td>4K UHD x6 </td>
-  </tr>
-  <!-- 국립부여박물관 -->
-  <tr>
-    <td align="center" rowspan="2">박물관</td>
-    <td rowspan="2">국립부여박물관 백제목간전</td>
-    <td>인터랙티브 콘텐츠</td>
-    <td align="center">1</td>
-    <td>RFID 연동, 프로젝션 매핑</td>
-  </tr>
-  <tr>
-    <td>키오스크</td>
-    <td align="center">1</td>
-    <td>-</td>
-  </tr>
-  <!-- 수도국산 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>수도국산달동네박물관</td>
-    <td>인터랙티브 콘텐츠</td>
-    <td align="center">1</td>
-    <td>키넥트 활용 제스처 인식, 에어마우스</td>
-  </tr>
-  <!-- 서울공예 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>서울공예박물관</td>
-    <td>키오스크</td>
-    <td align="center">3</td>
-    <td>-</td>
-  </tr>
-  <!-- 국립대구박물관 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>국립대구박물관 현판전</td>
-    <td>멀티 디바이스 연동 콘텐츠 (클라이언트)</td>
-    <td align="center">1</td>
-    <td>-</td>
-  </tr>
-  <!-- 국립항공 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>국립항공박물관</td>
-    <td>실감형 인터랙티브 콘텐츠</td>
-    <td align="center">1</td>
-    <td>라이다 활용, 공동 개발</td>
-  </tr>
-  <!-- 국중박 기증관 리뉴얼 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>국립중앙박물관 기증관</td>
-    <td>키오스크</td>
-    <td align="center">2</td>
-    <td>공동 개발</td>
-  </tr>
-  <!-- LH -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>LH토지주택박물관</td>
-    <td>미디어월</td>
-    <td align="center">1</td>
-    <td>4K UHD x6</td>
-  </tr>
-  <!-- 간송 서울 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>서울 간송미술관</td>
-    <td>키오스크</td>
-    <td align="center">1</td>
-    <td>-</td>
-  </tr>
-  <!-- 하리보 해피월드 -->
-  <tr>
-    <td align="center" rowspan="4">IP전시</td>
-    <td rowspan="4">제주 하리보 해피월드</td>
-    <td>미니게임 (전용 앱 연동)</td>
-    <td align="center">3</td>
-    <td rowspan="3"><a href="https://github.com/Seok-Min-Lee/HariboHappyWorld">예제 프로젝트</td>
-  </tr>
-  <tr>
-    <td>인터랙티브 콘텐츠</td>
-    <td align="center">1</td>
-  </tr>
-  <tr>
-    <td>어포던스 콘텐츠</td>
-    <td align="center">3</td>
-  </tr>
-  <tr>
-    <td>미니게임</td>
-    <td align="center">2</td>
-    <td>-</td>
-  </tr>
-  <!-- 경주박물관 -->
-  <tr>
-    <td align="center" rowspan="2">박물관</td>
-    <td rowspan="2">국립경주박물관</td>
-    <td>멀티 디바이스 연동 콘텐츠 (클라이언트)</td>
-    <td align="center">2</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>멀티 디바이스 연동 콘텐츠 (서버)</td>
-    <td align="center">2</td>
-    <td>-</td>
-  </tr>
-  <!-- 간송 대구 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>대구 간송미술관</td>
-    <td>키오스크</td>
-    <td align="center">4</td>
-    <td>-</td>
-  </tr>
-  <!-- 하이커그라운드 -->
-  <tr>
-    <td align="center" rowspan="4">기업전시</td>
-    <td rowspan="4">한국관광공사 하이커그라운드</td>
-    <td>인터랙티브 콘텐츠</td>
-    <td align="center">2</td>
-    <td>VR Tracker, RS232</td>
-  </tr>
-  <tr>
-    <td>멀티 디바이스 연동 콘텐츠 (클라이언트)</td>
-    <td align="center">3</td>
-    <td rowspan="2"><a href="https://github.com/Seok-Min-Lee/BehindTheScene">예제 프로젝트</td>
-  </tr>
-  <tr>
-    <td>멀티 디바이스 연동 콘텐츠 (서버)</td>
-    <td align="center">1</td>
-  </tr>
-  <tr>
-    <td>콘텐츠 관리 시스템</td>
-    <td align="center">1</td>
-    <td>미디어 일괄 교체 용도</td>
-  </tr>
-  <!-- 국중박 선사고대관 -->
-  <tr>
-    <td align="center">박물관</td>
-    <td>국립중앙박물관 선사고대관</td>
-    <td>미니게임</td>
-    <td align="center">2</td>
-    <td>-</td>
-  </tr>
-  <!-- 신세계백화점 -->
-  <tr>
-    <td align="center" rowspan="2">기업전시</td>
-    <td rowspan="2">신세계백화점 헤리티지 (舊 제일은행)</td>
-    <td>멀티 디바이스 연동 콘텐츠 (키오스크)</td>
-    <td align="center">1</td>
-    <td>안드로이드 OS</td>
-  </tr>
-  <tr>
-    <td>멀티 디바이스 연동 콘텐츠 (미디어월)</td>
-    <td align="center">1</td>
-    <td>-</td>
-  </tr>
-  <!-- 컴포넌트 R&D -->
-  <tr>
-    <td align="center" rowspan="3">기타</td>
-    <td rowspan="3">공통 모듈 및 R&D 컴포넌트</td>
-    <td>비정형 레이아웃 생성 엔진</td>
-    <td align="center">1</td>
-    <td><a href="https://github.com/Seok-Min-Lee/PP_03_02_GridWall">예제 프로젝트</td>
-  </tr>
-  <tr>
-    <td>셋업 GUI 시스템</td>
-    <td align="center">1</td>
-    <td>현장 세팅 용도</td>
-  </tr>
-  <tr>
-    <td>R&D</td>
-    <td align="center">1</td>
-    <td>비전 방식 공간 분할 시스템</td>
-  </tr>
-</table>
+- 키오스크 UI/UX부터 특수 센서 연동, 1:N 멀티 동기화 아키텍처 및 자체 R&D 컴포넌트 개발까지 전시 솔루션 전 과정을 주도했습니다.
+  
+<details>
+  <summary>🔍 <b>목록 전체 보기 (프로젝트 18개 / 프로그램 50종)</b></summary>
+  <table>
+    <tr>
+      <th width="10%">구분</th>
+      <th width="30%">프로젝트</th>
+      <th width="30%">콘텐츠</th>
+      <th width="10%">개수</th>
+      <th width="20%">기타</th>
+    </tr>
+    <!-- 하리보 100주년 -->
+    <tr>
+      <td align="center">IP전시</td>
+      <td>골드베렌의 100주년 생일 기념전 WELCOME TO THE HARIBO WORLD</td>
+      <td>인터랙티브 콘텐츠</td>
+      <td align="center">1</td>
+      <td>리얼센스 활용 바디 트래킹</td>
+    </tr>
+    <!-- 국중박 기증관 -->
+    <tr>
+      <td align="center" rowspan="2">박물관</td>
+      <td rowspan="2">국립중앙박물관 기증관</td>
+      <td>키오스크</td>
+      <td align="center">2</td>
+      <td>안드로이드 OS</td>
+    </tr>
+    <tr>
+      <td>키오스크</td>
+      <td align="center">1</td>
+      <td>-</td>
+    </tr>
+    <!-- ACC -->
+    <tr>
+      <td align="center" rowspan="2">박물관</td>
+      <td rowspan="2">광주 국립아시아문화전당</td>
+      <td>키오스크</td>
+      <td align="center">1</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>미니게임</td>
+      <td align="center">1</td>
+      <td>-</td>
+    </tr>
+    <!-- 청계천 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>청계천박물관</td>
+      <td>미디어월 콘텐츠</td>
+      <td align="center">1</td>
+      <td>4K UHD x6 </td>
+    </tr>
+    <!-- 국립부여박물관 -->
+    <tr>
+      <td align="center" rowspan="2">박물관</td>
+      <td rowspan="2">국립부여박물관 백제목간전</td>
+      <td>인터랙티브 콘텐츠</td>
+      <td align="center">1</td>
+      <td>RFID 연동, 프로젝션 매핑</td>
+    </tr>
+    <tr>
+      <td>키오스크</td>
+      <td align="center">1</td>
+      <td>-</td>
+    </tr>
+    <!-- 수도국산 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>수도국산달동네박물관</td>
+      <td>인터랙티브 콘텐츠</td>
+      <td align="center">1</td>
+      <td>키넥트 활용 제스처 인식, 에어마우스</td>
+    </tr>
+    <!-- 서울공예 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>서울공예박물관</td>
+      <td>키오스크</td>
+      <td align="center">3</td>
+      <td>-</td>
+    </tr>
+    <!-- 국립대구박물관 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>국립대구박물관 현판전</td>
+      <td>멀티 디바이스 연동 콘텐츠 (클라이언트)</td>
+      <td align="center">1</td>
+      <td>-</td>
+    </tr>
+    <!-- 국립항공 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>국립항공박물관</td>
+      <td>실감형 인터랙티브 콘텐츠</td>
+      <td align="center">1</td>
+      <td>라이다 활용, 공동 개발</td>
+    </tr>
+    <!-- 국중박 기증관 리뉴얼 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>국립중앙박물관 기증관</td>
+      <td>키오스크</td>
+      <td align="center">2</td>
+      <td>공동 개발</td>
+    </tr>
+    <!-- LH -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>LH토지주택박물관</td>
+      <td>미디어월</td>
+      <td align="center">1</td>
+      <td>4K UHD x6</td>
+    </tr>
+    <!-- 간송 서울 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>서울 간송미술관</td>
+      <td>키오스크</td>
+      <td align="center">1</td>
+      <td>-</td>
+    </tr>
+    <!-- 하리보 해피월드 -->
+    <tr>
+      <td align="center" rowspan="4">IP전시</td>
+      <td rowspan="4">제주 하리보 해피월드</td>
+      <td>미니게임 (전용 앱 연동)</td>
+      <td align="center">3</td>
+      <td rowspan="3"><a href="https://github.com/Seok-Min-Lee/HariboHappyWorld">예제 프로젝트</td>
+    </tr>
+    <tr>
+      <td>인터랙티브 콘텐츠</td>
+      <td align="center">1</td>
+    </tr>
+    <tr>
+      <td>어포던스 콘텐츠</td>
+      <td align="center">3</td>
+    </tr>
+    <tr>
+      <td>미니게임</td>
+      <td align="center">2</td>
+      <td>-</td>
+    </tr>
+    <!-- 경주박물관 -->
+    <tr>
+      <td align="center" rowspan="2">박물관</td>
+      <td rowspan="2">국립경주박물관</td>
+      <td>멀티 디바이스 연동 콘텐츠 (클라이언트)</td>
+      <td align="center">2</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>멀티 디바이스 연동 콘텐츠 (서버)</td>
+      <td align="center">2</td>
+      <td>-</td>
+    </tr>
+    <!-- 간송 대구 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>대구 간송미술관</td>
+      <td>키오스크</td>
+      <td align="center">4</td>
+      <td>-</td>
+    </tr>
+    <!-- 하이커그라운드 -->
+    <tr>
+      <td align="center" rowspan="4">기업전시</td>
+      <td rowspan="4">한국관광공사 하이커그라운드</td>
+      <td>인터랙티브 콘텐츠</td>
+      <td align="center">2</td>
+      <td>VR Tracker, RS232</td>
+    </tr>
+    <tr>
+      <td>멀티 디바이스 연동 콘텐츠 (클라이언트)</td>
+      <td align="center">3</td>
+      <td rowspan="2"><a href="https://github.com/Seok-Min-Lee/BehindTheScene">예제 프로젝트</td>
+    </tr>
+    <tr>
+      <td>멀티 디바이스 연동 콘텐츠 (서버)</td>
+      <td align="center">1</td>
+    </tr>
+    <tr>
+      <td>콘텐츠 관리 시스템</td>
+      <td align="center">1</td>
+      <td>미디어 일괄 교체 용도</td>
+    </tr>
+    <!-- 국중박 선사고대관 -->
+    <tr>
+      <td align="center">박물관</td>
+      <td>국립중앙박물관 선사고대관</td>
+      <td>미니게임</td>
+      <td align="center">2</td>
+      <td>-</td>
+    </tr>
+    <!-- 신세계백화점 -->
+    <tr>
+      <td align="center" rowspan="2">기업전시</td>
+      <td rowspan="2">신세계백화점 헤리티지 (舊 제일은행)</td>
+      <td>멀티 디바이스 연동 콘텐츠 (키오스크)</td>
+      <td align="center">1</td>
+      <td>안드로이드 OS</td>
+    </tr>
+    <tr>
+      <td>멀티 디바이스 연동 콘텐츠 (미디어월)</td>
+      <td align="center">1</td>
+      <td>-</td>
+    </tr>
+    <!-- 컴포넌트 R&D -->
+    <tr>
+      <td align="center" rowspan="3">기타</td>
+      <td rowspan="3">공통 모듈 및 R&D 컴포넌트</td>
+      <td>비정형 레이아웃 생성 엔진</td>
+      <td align="center">1</td>
+      <td><a href="https://github.com/Seok-Min-Lee/PP_03_02_GridWall">예제 프로젝트</td>
+    </tr>
+    <tr>
+      <td>셋업 GUI 시스템</td>
+      <td align="center">1</td>
+      <td>현장 세팅 용도</td>
+    </tr>
+    <tr>
+      <td>R&D</td>
+      <td align="center">1</td>
+      <td>비전 방식 공간 분할 시스템</td>
+    </tr>
+  </table>
+</details>
 
 ## 키오스크 (Kiosk)
 관람객의 편의성과 몰입감을 극대화하기 위해 구현한 안내 및 체험형 키오스크 시스템의 핵심 기술 요약입니다.
@@ -267,9 +269,20 @@
     <td> 간송미술관 </td>
     <td> 국립부여박물관 </td>
   </tr>
- </table>
+</table>
 
-
+### 📏 레이아웃 (Layout)
+<table width="100%">
+  <tr width="100%">
+    <th> 실시간 비정형 그리드 레이아웃 </th>
+  </tr>
+  <tr>
+    <td> <img src="https://github.com/Seok-Min-Lee/PP_03_02_GridWall/blob/main/Docs/Preview.gif"> </td>
+  </tr>
+  <tr align="center">
+    <td> <a href="https://github.com/Seok-Min-Lee/PP_03_02_GridWall">예제 프로젝트 </td>
+  </tr>
+</table>
 
 ## 인터랙티브 (Interactive)
 현장 관람객의 신체 움직임과 디바이스 조작을 실시간으로 감지하여, 공간 전체와 유기적으로 상호작용하는 인터랙티브 미디어 시스템입니다.
