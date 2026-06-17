@@ -2,10 +2,82 @@
 
 - 피플리 재직 중 주요 국공립 기관 및 글로벌 IP 전시의 실감형 미디어 시스템을 구축한 내용입니다.  
 - 키오스크 UI/UX부터 특수 센서 연동, 1:N 멀티 동기화 아키텍처 및 자체 R&D 컴포넌트 개발까지 전시 솔루션 전 과정을 주도했습니다.
+
+### 🛠 기술 스택
+
+<table width="100%" >
+  <tr width="100%">
+    <th width="15%" align="center"> 구분 </th>
+    <th width="25%" align="center"> 분류 </th>
+    <th width="60%" align="center"> 상세 기술 </th>
+  </tr>
+  <tr>
+    <td align="center" rowspan="2">엔진</td>
+    <td align="center">엔진</td>
+    <td>Unity (URP, HDRP)</td>
+  </tr>
+  <tr>
+    <td align="center">언어</td>
+    <td>C#</td>
+  </tr>
   
-<details>
-  <summary>🔍 <b>목록 전체 보기 (프로젝트 18개 / 프로그램 50종)</b></summary>
-  <table>
+  <tr>
+    <td align="center" rowspan="3">인터랙션</td>
+    <td align="center" >RGB 센서</td>
+    <td>Webcam</td>
+  </tr>
+  <tr>
+    <td align="center">Depth 센서</td>
+    <td>Kinect, RealSense, LiDAR</td>
+  </tr>
+  <tr>
+    <td align="center">기타 센서</td>
+    <td>RFID, VR Tracker</td>
+  </tr>
+  
+  <tr>
+    <td align="center" rowspan="3">시각 연출</td>
+    <td align="center">애니메이션</td>
+    <td>DOTween</td>
+  </tr>
+  <tr>
+    <td align="center">프로젝션 매핑</td>
+    <td>Spout (실시간 미디어 송수신)</td>
+  </tr>
+  <tr>
+    <td align="center">기타</td>
+    <td>Unity Post Processing, 고해상도 멀티 디스플레이 최적화</td>
+  </tr>
+  
+  <tr>
+    <td align="center" rowspan="3">네트워크</td>
+    <td align="center">HTTP 통신</td>
+    <td>REST API</td>
+  </tr>
+  <tr>
+    <td align="center">소켓 통신</td>
+    <td>TCP, UDP</td>
+  </tr>
+  <tr>
+    <td align="center">시리얼 통신</td>
+    <td>RS232</td>
+  </tr>
+  
+  <tr>
+    <td align="center" rowspan="2">데이터</td>
+    <td align="center">DBMS</td>
+    <td>SQLite</td>
+  </tr>
+  <tr>
+    <td align="center">로컬 데이터 파싱</td>
+    <td>JSON, CSV, INI 등</td>
+  </tr>
+</table>
+
+### 🎞 참여 프로젝트
+<details open>
+  <summary>프로젝트 18개 / 프로그램 50종</summary>
+  <table width="100%">
     <tr>
       <th width="10%">구분</th>
       <th width="30%">프로젝트</th>
