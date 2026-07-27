@@ -302,6 +302,73 @@
   </table>
 </details>
 
+
+
+## 인터랙티브 (Interactive)
+현장 관람객의 신체 움직임과 디바이스 조작을 실시간으로 감지하여, 공간 전체와 유기적으로 상호작용하는 인터랙티브 미디어 시스템입니다.
+
+### 📡 센서 (Sensors)
+관람객의 행동 유도에 최적화된 특수 센서를 연동하여, 직관적인 비접촉 제어와 인터랙티브 공간을 구현합니다.
+<table width="100%" >
+  <tr>
+    <th width="50%">제스쳐 인식 (키넥트)</th>
+    <th width="50%">벽면 터치 (라이다 센서)</th>
+  </tr>
+  <tr>
+    <td> <img src="Docs/kinect-gesture.gif"> </td>
+    <td> <img src="Docs/hokuyo.gif"> </td>
+  </tr>
+  <tr align="center">
+    <td> 수도국산달동네박물관 </td>
+    <td> 국립항공박물관 </td>
+  </tr>
+  
+  <tr>
+    <th width="50%">에어 마우스 (VR 트래커)</th>
+    <th width="50%">바디 트래킹 (리얼센스)</th>
+  </tr>
+  <tr>
+    <td> <img src="Docs/vive-tracker.gif"> </td>
+    <td align="center"> <img src="Docs/realsense-bodytracking.png" width="32%"></td>
+  </tr>
+  <tr align="center">
+    <td> 한국관광공사 </td>
+    <td> 골드베렌의 100주년 생일 기념전 WELCOME TO THE HARIBO WORLD </td>
+  </tr>
+ </table>
+
+### 👁️ 컴퓨터 비전 (Computer Vision)
+카메라 영상 데이터를 실시간으로 추적·분석하여, 관람객의 움직임이나 환경 변화를 즉각적으로 콘텐츠에 반영하는 비전 기술입니다.
+<table width="100%" >
+  <tr>
+    <th colspan="3">얼굴 인식 (Google MediaPipe)</th>
+  </tr>
+  <tr>
+    <td> <img src="Docs/face-mask-1.gif"> </td>
+    <td> <img src="Docs/face-mask-2.gif"> </td>
+    <td> <img src="Docs/face-mask-3.gif"> </td>
+  </tr>
+  <tr align="center">
+    <td colspan="3"> 한국관광공사 </td>
+  </tr>
+ </table>
+
+### 🔌 시리얼 통신 (RS232)
+하드웨어 장치와 PC 간의 로컬 시리얼 통신 연동 기술로, **RFID 및 바코드** 등의 인식 센서 데이터를 실시간으로 수신하여 콘텐츠를 제어합니다.
+<table width="100%">
+  <tr>
+    <th colspan="3"> RFID 인식 후 미디어 교체 </th>
+  </tr>
+  <tr>
+    <td> <img src="Docs/rfid-1.gif"> </td>
+    <td> <img src="Docs/rfid-2.gif"> </td>
+    <td> <img src="Docs/rfid-3.gif"> </td>
+  </tr>
+  <tr> 
+    <td colspan="3" align="center"> 국립부여박물관 </td>
+  </tr>
+ </table>
+
 ## 키오스크 (Kiosk)
 관람객의 편의성과 몰입감을 극대화하기 위해 구현한 안내 및 체험형 키오스크 시스템의 핵심 기술 요약입니다.
 
@@ -355,61 +422,6 @@
     <td> <a href="https://github.com/Seok-Min-Lee/PP_03_02_GridWall">예제 프로젝트 </td>
   </tr>
 </table>
-
-## 인터랙티브 (Interactive)
-현장 관람객의 신체 움직임과 디바이스 조작을 실시간으로 감지하여, 공간 전체와 유기적으로 상호작용하는 인터랙티브 미디어 시스템입니다.
-
-### 📡 센서 (Sensors)
-관람객의 행동 유도에 최적화된 특수 센서를 연동하여, 직관적인 비접촉 제어와 인터랙티브 공간을 구현합니다.
-<table width="100%" >
-  <tr>
-    <th width="33.3%">제스쳐 인식 (키넥트)</th>
-    <th width="33.3%">벽면 터치 (라이다 센서)</th>
-    <th width="33.3%">에어 마우스 (VR 트래커)</th>
-  </tr>
-  <tr>
-    <td> <img src="Docs/kinect-gesture.gif"> </td>
-    <td> <img src="Docs/hokuyo.gif"> </td>
-    <td> <img src="Docs/vive-tracker.gif"> </td>
-  </tr>
-  <tr align="center">
-    <td> 수도국산달동네박물관 </td>
-    <td> 국립항공박물관 </td>
-    <td> 한국관광공사 </td>
-  </tr>
- </table>
-
-### 👁️ 컴퓨터 비전 (Computer Vision)
-카메라 영상 데이터를 실시간으로 추적·분석하여, 관람객의 움직임이나 환경 변화를 즉각적으로 콘텐츠에 반영하는 비전 기술입니다.
-<table width="100%" >
-  <tr>
-    <th colspan="3">얼굴 인식 (Google MediaPipe)</th>
-  </tr>
-  <tr>
-    <td> <img src="Docs/face-mask-1.gif"> </td>
-    <td> <img src="Docs/face-mask-2.gif"> </td>
-    <td> <img src="Docs/face-mask-3.gif"> </td>
-  </tr>
-  <tr align="center">
-    <td colspan="3"> 한국관광공사 </td>
-  </tr>
- </table>
-
-### 🔌 시리얼 통신 (RS232)
-하드웨어 장치와 PC 간의 로컬 시리얼 통신 연동 기술로, **RFID 및 바코드** 등의 인식 센서 데이터를 실시간으로 수신하여 콘텐츠를 제어합니다.
-<table width="100%">
-  <tr>
-    <th colspan="3"> RFID 인식 후 미디어 교체 </th>
-  </tr>
-  <tr>
-    <td> <img src="Docs/rfid-1.gif"> </td>
-    <td> <img src="Docs/rfid-2.gif"> </td>
-    <td> <img src="Docs/rfid-3.gif"> </td>
-  </tr>
-  <tr> 
-    <td colspan="3" align="center"> 국립부여박물관 </td>
-  </tr>
- </table>
 
 ## 기타 및 R&D
 독립형 하드웨어 연동 단계를 넘어, 여러 기기 간의 유기적인 로컬 통신 구조 설계 및 차세대 비전 알고리즘을 연구·적용한 결과물입니다.  
